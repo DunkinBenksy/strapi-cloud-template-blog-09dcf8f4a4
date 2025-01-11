@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "collectionName": "traits",
+  "info": {
+    "singularName": "trait",
+    "pluralName": "traits",
+    "displayName": "Trait"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "type": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
